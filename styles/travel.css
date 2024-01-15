@@ -3,3 +3,50 @@
 body{
     font-family: 'Mulish', sans-serif;
 }
+
+.header-section{
+    max-width: 1200px;
+    margin: 0px auto;
+    /* border: 1px solid salmon; */
+    display: flex;
+}
+.nav-container{
+    /* max-width: 1200px; */
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+p{
+   
+    color: #131318;
+font-size: 30px;
+font-weight: 800;
+}
+.nav-container img{
+    width: 50px;
+height: 50px;
+
+}
+p >span{
+    padding-left: 15px;
+}
+
+.nav-items{
+  /* border: 1px solid gold; */
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items a{
+    text-decoration: none;
+    color:  #424247;
+font-size: 18px;
+font-weight: 400px;
+}
+ .home{
+font-size: 18px;
+font-weight: 700;
+}
