@@ -70,7 +70,7 @@ main{
     border-radius: 16px;
     min-height: 500px;
 }
-.travel-title{
+.travel-title {
     color: #FFF;
 font-size: 60px;
 font-weight: 800;
@@ -153,14 +153,14 @@ margin-top: 100px;
 /* border: 2px solid yellow; */
 width: 50%;
 }
-.tours-title{
+.tours-title , .destination-title{
     color: #131318;
 font-size: 40px;
 font-weight: 800;
 margin-bottom:20px ;
 
 }
-.tours-description{
+.tours-description , .destination-description{
     color: rgba(19, 19, 24, 0.70);
 font-size: 16px;
 font-weight: 400;
@@ -170,14 +170,14 @@ line-height: 26px;
     margin-top: 30px;
 }
 
-.img-container{
+.images{
     /* border: 2px solid slateblue; */
     width: 50%;
     display: flex;
     justify-content: end;
     
 }
-.img-container img{
+.images img{
     width: 490px;
     height: 520px;
    background:url('../Images/Rectangle\ 4.png'),lightgray 50% / cover no-repeat;
@@ -186,3 +186,28 @@ line-height: 26px;
 }
 
 /* Tour section end */
+
+
+.destination-container{
+text-align: center;
+margin-top: 100px;
+}
+
+
+.maldive{
+    margin-top: 45px;
+    display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.srilanka{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.bangladesh{
+    display: flex;
+    gap: 24px;
+}
