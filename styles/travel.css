@@ -51,10 +51,15 @@ font-size: 18px;
 font-weight: 700;
 }
 
+
+
+/* main section */
 main{
     max-width: 1200px;
     margin: 0px auto;    
 }
+
+/* Travel esction start */
 .travel{
     /* min-width: 1200px;
     margin: 0px auto; */
@@ -62,7 +67,7 @@ main{
     background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat:no-repeat;
     border-radius: 16px;
-    min-height: 400px;
+    min-height: 500px;
 }
 .travel-title{
     color: #FFF;
@@ -78,4 +83,58 @@ font-size: 15px;
 font-weight: 400;
 margin: 0px auto;
 width: 50%;
+}
+.button-container{
+    display: flex;
+   justify-content: center;
+    /* border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30); */
+    /* padding: 15px;
+   margin-top: 45px;  */
+} 
+.button{
+    display: flex;
+    justify-content: center;
+    padding:15px ;
+    /* padding: 16px 84px 16px; */
+    background: rgba(255, 255, 255, 0.30);
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 45px;
+
+}
+.where-go , .when , .select{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    width: 170px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+}
+/* .when{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+}
+.select{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+} */
+.btn-praimary{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0px;
+    width: 170px;
+    height: 45px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 18px;
+
 }
