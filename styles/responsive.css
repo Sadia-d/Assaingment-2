@@ -1,0 +1,88 @@
+@media  screen and (max-width:600px){
+    .travel{
+        width: 100%;
+        height: 500px;
+        border-radius: 16px;
+    }
+    .travel-title {
+        padding-top: 20px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+       
+}
+.travel-description{
+    width: 100%;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+   gap:10px;
+   width: 100%;
+   align-items: center;
+}
+
+.tours{
+    flex-direction: column;
+}
+.text-container{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.images{
+    width: 100%;
+}
+.images img{
+   width: 100%;
+   height: 100%;
+ margin: 0px auto;
+
+}
+
+
+.maldive{
+    flex-direction: column;
+   
+}
+
+.srilanka{
+    flex-direction: column;
+}
+
+.bangladesh{
+    flex-direction: column;
+}
+
+
+.hotel-container{
+    flex-direction: column;
+}
+
+.newsletter-container{
+    flex-direction: column;
+    margin-left: 0px;
+}
+
+.newsletter{
+    width: 100%;
+    padding: 5px;
+}
+
+  .from ,#name{
+    padding-right: 10px;
+}
+
+
+
+.from>.btn-praimary{
+    margin-bottom: 10px;
+}
+
+.nature> .img{
+  width: 100%;
+}

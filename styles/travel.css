@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
 
+
 body{
     font-family: 'Mulish', sans-serif;
 }
@@ -53,6 +54,7 @@ font-weight: 700;
 
 
 
+
 /* main section */
 main{
     max-width: 1200px;
@@ -62,17 +64,14 @@ main{
 /* Travel sction start */
 
 .travel{
-    /* min-width: 1200px;
-    margin: 0px auto; */
-    /* border: 2px solid red; */
     background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) ,url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat:no-repeat;
     border-radius: 16px;
-    min-height: 500px;
+    height: 500px;
 }
 .travel-title {
     color: #FFF;
-font-size: 60px;
+font-size: 4rem;
 font-weight: 800;
 text-align: center;
 margin-bottom: 24px;
@@ -83,15 +82,11 @@ padding-top: 100px;
 font-size: 15px;
 font-weight: 400;
 margin: 0px auto;
-width: 50%;
+ width: 50%;
 }
 .button-container{
     display: flex;
    justify-content: center;
-    /* border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30); */
-    /* padding: 15px;
-   margin-top: 45px;  */
 } 
 .button{
     display: flex;
@@ -114,7 +109,7 @@ width: 50%;
     align-items: center;
     margin-left: 18px;
 }
-.when ,.icons{
+.when,.icons{
     display: flex;
     justify-content: space-between;
 }
@@ -126,16 +121,7 @@ width: 50%;
 display: flex;
 gap: 10px;
 }
-/* .when{
-    color: rgba(19, 19, 24, 0.50);
-    font-size: 16px;
-    font-weight: 400;
-}
-.select{
-    color: rgba(19, 19, 24, 0.50);
-    font-size: 16px;
-    font-weight: 400;
-} */
+
 .btn-praimary{
     color: #FFF;
     font-size: 16px;
@@ -155,9 +141,9 @@ gap: 10px;
 /* Travel section end */
 
 /* Tour section start */
+
 .tours{
-max-width: 1200px;
-/* border: 2px solid red; */
+/* max-width: 1200px; */
 display: flex;
 margin-top: 100px;
 }
@@ -185,15 +171,14 @@ line-height: 26px;
 .images{
     /* border: 2px solid slateblue; */
     width: 50%;
-    display: flex;
-    justify-content: end;
+    
     
 }
 .images img{
     width: 490px;
     height: 520px;
-   background:url('../Images/Rectangle\ 4.png'),lightgray 50% / cover no-repeat;
-    border-radius: 8px;
+    border-radius:10px;
+    margin-left: 100px;
    
 }
 
@@ -224,6 +209,8 @@ margin-top: 100px;
     gap: 24px;
 }
 
+/* choose start */
+
 .choose-container{
     text-align: center;
     margin-top: 100px;
@@ -239,8 +226,6 @@ margin-top: 45px;
     border-radius: 16px;
 border: 1px solid rgba(251, 181, 99, 0.20);
 background: rgba(251, 181, 99, 0.05);
-/* width: 500px; */
-/* min-height: 300px; */
 padding: 32px 55px 32px 32px;
 }
 .service{
@@ -281,7 +266,9 @@ margin: 0px auto;
     width: 500px;
     
 }
- 
+
+ /* choose end */
+
 
 .newsletter-container{
     /* border: 1px solid red; */
@@ -313,7 +300,7 @@ hr{
 }
 #name{
     margin-bottom: 15px;
-    padding: 16px 150px 16px 16px;
+    padding: 16px 140px 16px 16px;
     margin-top: 24px;
     border-radius: 8px;
 background: rgba(19, 19, 24, 0.05);
@@ -321,19 +308,18 @@ border: 0px;
 }
 #email{
     margin-bottom: 15px;
-    padding: 16px 150px 16px 16px;
+    padding: 16px 140px 16px 16px;
     border-radius: 8px;
 background: rgba(19, 19, 24, 0.05);
 border: 0px;
 }
 
 .from>.btn-praimary{
-    padding: 0px 150px 0px 16px;
+    padding: 0px 140px 0px 16px;
     margin-left: 0px;
 }
 
-.nature{
-    width: 672px;
+.nature ,.img {
 height: 422px;
 border-radius: 16px;
 position: relative;
@@ -341,6 +327,7 @@ position: relative;
 
 
 .footer{
+    max-width: 1400px;
     margin-top: 100px;
     background: rgba(19, 19, 24, 0.05);
     padding-top: 100px;
