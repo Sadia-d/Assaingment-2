@@ -34,10 +34,10 @@ p >span{
     padding-left: 15px;
 }
 
-.toggle-menu{
+.nav-container>.toggle-menu{
 display: none;
 }
-.humburger{
+.nav-container>.humburger{
 display: none;
 }
 

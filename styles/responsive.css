@@ -1,12 +1,11 @@
 @media  screen and (max-width:600px){
 
-    .humburger{
-      
-        display: grid;
+    .nav-container>.humburger{
+        display: flex;
         padding-left: 45%;
         padding-right: 20px;
       }
-    .nav-items a{
+    .nav-items > a{
             display: none;
         }
     .travel{
