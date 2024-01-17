@@ -34,6 +34,13 @@ p >span{
     padding-left: 15px;
 }
 
+.toggle-menu{
+display: none;
+}
+.humburger{
+display: none;
+}
+
 .nav-items{
   /* border: 1px solid gold; */
   width: 50%;
@@ -169,10 +176,7 @@ line-height: 26px;
 }
 
 .images{
-    /* border: 2px solid slateblue; */
-    width: 50%;
-    
-    
+    width: 50%; 
 }
 .images img{
     width: 490px;
@@ -328,16 +332,22 @@ position: relative;
 
 .footer{
     max-width: 1400px;
-    margin-top: 100px;
+   margin-top: 100px;
     background: rgba(19, 19, 24, 0.05);
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.footer-container{
+.element{
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
+    padding-top: 0px;
+    gap: 10px; 
+    margin-bottom: 10px;
+}
+.footer-container{
+display: flex;
+align-items: center;
+padding-top: 10px;
 }
 
 .footer>.tours-description{
