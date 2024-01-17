@@ -92,9 +92,29 @@
     margin-bottom: 10px;
 }
 
-.nature> .img{
-  width: 100%;
+.nature> .img-1{
+ width: 100%;
 }
+.nature>.travels{
+    width: 180px;
+    height: 79px;
+    transform: rotate(-19.628deg);
+    
+}
+.travels{
+bottom: 5.5%;
+left: 51.2%;
+}
+.travels > h6{
+font-size: 12px;
+font-weight: 400;
+}
+.travels > .discount{
+font-size: 20px;
+font-weight: 800;
+margin-left: 10px;
+}
+
 
 .footer{
     margin-top: 30px;
